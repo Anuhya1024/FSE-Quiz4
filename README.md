@@ -3,6 +3,13 @@
 An example architecture used for managing product inventory which
 highlights the use of event collaboration with [RabbitMQ](https://www.rabbitmq.com/).
 
+## People Involved in the Assignment
+### Jigisha Patil
+
+Code compiles and Java Test pass
+
+![gradle-build](https://github.com/jigisha620/FSE-RabbitMQ/actions/workflows/build.yml/badge.svg?event=push)
+
 ## History
 
 The milk problem first surfaced while working with a well-known grocery
@@ -23,8 +30,8 @@ one transaction to affect a read in another transaction.
 As a result, the grocery chain was unable to produce an accurate count
 of milk on the shelves.
 
-The below exercise introduces the reader to transactions while highlighting the challenges of dirty reads.
-We then move to event collaboration with RabbitMQ while highlighting the challenges with messaging systems.
+The below exercise introduces the reader to event collaboration with
+RabbitMQ while highlighting the challenges with messaging systems.
 
 ## The exercise
 
@@ -73,11 +80,11 @@ application in both local and production environments.
 1.  Create the _milk_test_ databases.
 
     ```bash
+    psql -c "create database milk_test;"
     psql -c "create user milk with password 'milk';"
-    psql -c "create database milk_test with owner 'milk';"
     ```
 
-1.  Migrate the database with [Flyway](https://flywaydb.org/documentation/usage/commandline/#download-and-installation).
+1.  Migrate the database with Flyway.
 
     ```bash
     flyway -user=milk -password=milk -url="jdbc:postgresql://localhost:5432/milk_test" -locations=filesystem:databases/milk clean migrate
@@ -96,7 +103,7 @@ Use Gradle to run tests. You'll see a few failures at first.
 1.  Create the _milk_development_ database.
 
     ```bash
-    psql -c "create database milk_development with owner 'milk';"
+    psql -c "create database milk_development;"
     ```
 
 1.  Migrate the database with Flyway.
@@ -128,7 +135,7 @@ Use Gradle to run tests. You'll see a few failures at first.
 1.  Use Gradle to run the simple client
 
     ```bash
-    ./gradlew applications:simple-http-client:run
+    ./gradlew applications:simple-client:run
     ```
 
 Hope you enjoy the exercise!
