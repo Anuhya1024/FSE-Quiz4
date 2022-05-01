@@ -1,0 +1,9 @@
+’2022-04-30 18:25:23.842 [Test worker] INFO  ktor.test - No ktor.deployment.watch patterns match classpath entries, automatic reload is not active
+l2022-04-30 18:25:24.191 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker sales-worker
+l2022-04-30 18:25:24.193 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker sales-worker
+l2022-04-30 18:25:24.193 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker sales-worker
+l2022-04-30 18:25:24.195 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker sales-worker
+t2022-04-30 18:25:24.200 [pool-1-thread-3] INFO  io.milk.httpclient.PurchaseGenerator - someone purchased some milk!
+t2022-04-30 18:25:24.200 [pool-1-thread-4] INFO  io.milk.httpclient.PurchaseGenerator - someone purchased some milk!
+t2022-04-30 18:25:24.200 [pool-1-thread-1] INFO  io.milk.httpclient.PurchaseGenerator - someone purchased some milk!
+t2022-04-30 18:25:24.200 [pool-1-thread-2] INFO  io.milk.httpclient.PurchaseGenerator - someone purchased some milk!

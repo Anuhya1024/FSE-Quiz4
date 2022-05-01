@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.milk.client.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-01T00:25:23" hostname="Anuhyas-MacBook-Air.local" time="0.665">
+  <properties/>
+  <testcase name="testIndex" classname="test.milk.client.AppTest" time="0.665"/>
+  <system-out><![CDATA[2022-04-30 18:25:23.842 [Test worker] INFO  ktor.test - No ktor.deployment.watch patterns match classpath entries, automatic reload is not active
+2022-04-30 18:25:24.191 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker sales-worker
+2022-04-30 18:25:24.193 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker sales-worker
+2022-04-30 18:25:24.193 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker sales-worker
+2022-04-30 18:25:24.195 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker sales-worker
+2022-04-30 18:25:24.200 [pool-1-thread-3] INFO  io.milk.httpclient.PurchaseGenerator - someone purchased some milk!
+2022-04-30 18:25:24.200 [pool-1-thread-4] INFO  io.milk.httpclient.PurchaseGenerator - someone purchased some milk!
+2022-04-30 18:25:24.200 [pool-1-thread-1] INFO  io.milk.httpclient.PurchaseGenerator - someone purchased some milk!
+2022-04-30 18:25:24.200 [pool-1-thread-2] INFO  io.milk.httpclient.PurchaseGenerator - someone purchased some milk!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

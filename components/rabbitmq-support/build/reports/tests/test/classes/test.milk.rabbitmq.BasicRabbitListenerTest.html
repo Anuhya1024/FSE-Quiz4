@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class test.milk.rabbitmq.BasicRabbitListenerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class test.milk.rabbitmq.BasicRabbitListenerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/test.milk.rabbitmq.html">test.milk.rabbitmq</a> &gt; BasicRabbitListenerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.489s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">listener</td>
+<td class="success">0.239s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">listenerMany</td>
+<td class="success">0.660s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">listenerManyManualAck</td>
+<td class="success">0.590s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>18:25:35.910 [pool-7-thread-4] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.1' on channel=many.2
+18:25:35.913 [pool-7-thread-4] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.5' on channel=many.2
+18:25:35.910 [pool-9-thread-4] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.2' on channel=many.4
+18:25:35.910 [pool-8-thread-4] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.3' on channel=many.3
+18:25:35.910 [pool-6-thread-4] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.4' on channel=many.1
+18:25:35.914 [pool-7-thread-5] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.9' on channel=many.2
+18:25:35.915 [pool-7-thread-5] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.13' on channel=many.2
+18:25:35.915 [pool-7-thread-5] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.17' on channel=many.2
+18:25:35.914 [pool-6-thread-5] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.8' on channel=many.1
+18:25:35.915 [pool-6-thread-5] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.12' on channel=many.1
+18:25:35.915 [pool-6-thread-5] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.16' on channel=many.1
+18:25:35.914 [pool-9-thread-5] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.6' on channel=many.4
+18:25:35.914 [pool-8-thread-5] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.7' on channel=many.3
+18:25:35.916 [pool-8-thread-5] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.11' on channel=many.3
+18:25:35.916 [pool-8-thread-5] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.15' on channel=many.3
+18:25:35.916 [pool-8-thread-5] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.19' on channel=many.3
+18:25:35.915 [pool-7-thread-6] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.21' on channel=many.2
+18:25:35.916 [pool-7-thread-6] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.25' on channel=many.2
+18:25:35.916 [pool-7-thread-6] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.29' on channel=many.2
+18:25:35.916 [pool-7-thread-6] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.33' on channel=many.2
+18:25:35.915 [pool-9-thread-5] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.10' on channel=many.4
+18:25:35.916 [pool-9-thread-5] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.14' on channel=many.4
+18:25:35.916 [pool-9-thread-5] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.18' on channel=many.4
+18:25:35.916 [pool-6-thread-6] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.20' on channel=many.1
+18:25:35.917 [pool-6-thread-6] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.24' on channel=many.1
+18:25:35.917 [pool-6-thread-6] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.28' on channel=many.1
+18:25:35.917 [pool-6-thread-6] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.32' on channel=many.1
+18:25:35.917 [pool-8-thread-6] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.23' on channel=many.3
+18:25:35.917 [pool-8-thread-6] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.27' on channel=many.3
+18:25:35.917 [pool-8-thread-6] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.31' on channel=many.3
+18:25:35.917 [pool-9-thread-6] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.22' on channel=many.4
+18:25:35.918 [pool-9-thread-7] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.26' on channel=many.4
+18:25:35.918 [pool-9-thread-7] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.30' on channel=many.4
+18:25:35.918 [pool-9-thread-8] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.34' on channel=many.4
+18:25:35.919 [pool-8-thread-7] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.35' on channel=many.3
+18:25:35.919 [pool-8-thread-7] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.39' on channel=many.3
+18:25:35.920 [pool-8-thread-7] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.43' on channel=many.3
+18:25:35.920 [pool-6-thread-7] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.36' on channel=many.1
+18:25:35.920 [pool-6-thread-7] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.40' on channel=many.1
+18:25:35.920 [pool-8-thread-8] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.47' on channel=many.3
+18:25:35.920 [pool-6-thread-7] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.44' on channel=many.1
+18:25:35.920 [pool-6-thread-7] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.48' on channel=many.1
+18:25:35.920 [pool-7-thread-7] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.37' on channel=many.2
+18:25:35.920 [pool-7-thread-7] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.41' on channel=many.2
+18:25:35.920 [pool-7-thread-7] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.45' on channel=many.2
+18:25:35.920 [pool-7-thread-7] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.49' on channel=many.2
+18:25:35.921 [pool-9-thread-9] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.38' on channel=many.4
+18:25:35.921 [pool-9-thread-9] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.42' on channel=many.4
+18:25:35.921 [pool-9-thread-9] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.46' on channel=many.4
+18:25:35.921 [pool-9-thread-9] INFO test.milk.rabbitmq.TestHandler - handling 'aBody.50' on channel=many.4
+18:25:36.504 [pool-23-thread-4] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.2' on channel=many.4
+18:25:36.504 [pool-23-thread-4] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.4' on channel=many.4
+18:25:36.505 [pool-21-thread-4] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.1' on channel=many.2
+18:25:36.505 [pool-21-thread-4] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.3' on channel=many.2
+18:25:36.505 [pool-21-thread-4] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.5' on channel=many.2
+18:25:36.505 [pool-21-thread-4] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.7' on channel=many.2
+18:25:36.505 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.6' on channel=many.4
+18:25:36.505 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.8' on channel=many.4
+18:25:36.506 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.10' on channel=many.4
+18:25:36.506 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.12' on channel=many.4
+18:25:36.506 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.14' on channel=many.4
+18:25:36.506 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.9' on channel=many.2
+18:25:36.506 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.16' on channel=many.4
+18:25:36.506 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.18' on channel=many.4
+18:25:36.506 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.11' on channel=many.2
+18:25:36.507 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.13' on channel=many.2
+18:25:36.507 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.15' on channel=many.2
+18:25:36.507 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.20' on channel=many.4
+18:25:36.507 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.17' on channel=many.2
+18:25:36.507 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.19' on channel=many.2
+18:25:36.507 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.21' on channel=many.2
+18:25:36.507 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.23' on channel=many.2
+18:25:36.507 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.22' on channel=many.4
+18:25:36.508 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.24' on channel=many.4
+18:25:36.508 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.25' on channel=many.2
+18:25:36.508 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.26' on channel=many.4
+18:25:36.508 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.27' on channel=many.2
+18:25:36.508 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.28' on channel=many.4
+18:25:36.508 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.29' on channel=many.2
+18:25:36.508 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.30' on channel=many.4
+18:25:36.508 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.31' on channel=many.2
+18:25:36.508 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.32' on channel=many.4
+18:25:36.508 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.33' on channel=many.2
+18:25:36.508 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.34' on channel=many.4
+18:25:36.508 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.35' on channel=many.2
+18:25:36.508 [pool-23-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.36' on channel=many.4
+18:25:36.508 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.37' on channel=many.2
+18:25:36.508 [pool-21-thread-5] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.39' on channel=many.2
+18:25:36.509 [pool-23-thread-6] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.38' on channel=many.4
+18:25:36.509 [pool-21-thread-6] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.41' on channel=many.2
+18:25:36.509 [pool-23-thread-6] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.40' on channel=many.4
+18:25:36.509 [pool-23-thread-6] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.42' on channel=many.4
+18:25:36.509 [pool-21-thread-6] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.43' on channel=many.2
+18:25:36.509 [pool-23-thread-6] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.44' on channel=many.4
+18:25:36.509 [pool-21-thread-6] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.45' on channel=many.2
+18:25:36.509 [pool-23-thread-6] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.46' on channel=many.4
+18:25:36.509 [pool-21-thread-6] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.47' on channel=many.2
+18:25:36.509 [pool-23-thread-6] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.48' on channel=many.4
+18:25:36.509 [pool-21-thread-6] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.49' on channel=many.2
+18:25:36.510 [pool-23-thread-6] INFO test.milk.rabbitmq.ManualAckTestHandler - manually handling 'aBody.50' on channel=many.4
+18:25:37.066 [pool-34-thread-4] INFO test.milk.rabbitmq.TestHandler - handling 'aBody' on channel=single.1
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at Apr 30, 2022, 6:25:37 PM</p>
+</div>
+</div>
+</body>
+</html>

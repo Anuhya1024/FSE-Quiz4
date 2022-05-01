@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.milk.start.AppRabbitTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-05-01T00:27:12" hostname="Anuhyas-MacBook-Air.local" time="2.842">
+  <properties/>
+  <testcase name="testBestCase" classname="test.milk.start.AppRabbitTest" time="1.417"/>
+  <testcase name="testQuantity_50" classname="test.milk.start.AppRabbitTest" time="0.63"/>
+  <testcase name="testSaferQuantity" classname="test.milk.start.AppRabbitTest" time="0.136"/>
+  <testcase name="testQuantity_1" classname="test.milk.start.AppRabbitTest" time="0.656"/>
+  <system-out><![CDATA[2022-04-30 18:27:12.853 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-30 18:27:12.954 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-30 18:27:13.040 [Test worker] INFO  ktor.test - No ktor.deployment.watch patterns match classpath entries, automatic reload is not active
+2022-04-30 18:27:13.560 [DefaultDispatcher-worker-1 @request#1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2022-04-30 18:27:13.568 [DefaultDispatcher-worker-1 @request#1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2022-04-30 18:27:13.780 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2022-04-30 18:27:13.786 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2022-04-30 18:27:13.821 [Test worker] INFO  ktor.test - No ktor.deployment.watch patterns match classpath entries, automatic reload is not active
+2022-04-30 18:27:13.883 [pool-23-thread-4] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.883 [pool-10-thread-10] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.883 [pool-23-thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2022-04-30 18:27:13.888 [pool-10-thread-10] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.889 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.890 [pool-23-thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2022-04-30 18:27:13.890 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.891 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.892 [pool-23-thread-5] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.896 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.896 [pool-23-thread-5] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.897 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.897 [pool-23-thread-5] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.897 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.898 [pool-23-thread-5] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.898 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.899 [pool-23-thread-5] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.899 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.900 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.900 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.901 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.902 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.903 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.904 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.904 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.905 [pool-10-thread-11] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.906 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.907 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.907 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.908 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.909 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.910 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.911 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.912 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.912 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.914 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.915 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.916 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.917 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.918 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.919 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.920 [pool-10-thread-12] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.921 [pool-10-thread-13] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.922 [pool-10-thread-13] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.923 [pool-10-thread-13] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.923 [pool-10-thread-13] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.924 [pool-10-thread-13] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.925 [pool-10-thread-13] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.926 [pool-10-thread-13] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.927 [pool-10-thread-13] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.927 [pool-10-thread-13] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:13.928 [pool-10-thread-13] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:14.452 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2022-04-30 18:27:14.459 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2022-04-30 18:27:14.497 [Test worker] INFO  ktor.test - No ktor.deployment.watch patterns match classpath entries, automatic reload is not active
+2022-04-30 18:27:14.546 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2022-04-30 18:27:14.553 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2022-04-30 18:27:14.583 [Test worker] INFO  ktor.test - No ktor.deployment.watch patterns match classpath entries, automatic reload is not active
+2022-04-30 18:27:14.604 [pool-10-thread-4] INFO  io.milk.start.ProductUpdateHandler - received event. purchase for milk, quantity=1, product_id=105442
+2022-04-30 18:27:14.606 [rabbitmq-connection-shutdown-amqp://guest@127.0.0.1:5672/] WARN  c.r.c.i.n.SocketChannelFrameHandler - Error while closing SocketChannel
+java.net.SocketException: Socket is closed
+	at java.base/sun.nio.ch.Net.translateToSocketException(Net.java:161)
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:282)
+	at java.base/sun.nio.ch.SocketAdaptor.setSoLinger(SocketAdaptor.java:315)
+	at com.rabbitmq.client.impl.nio.SocketChannelFrameHandlerState.close(SocketChannelFrameHandlerState.java:220)
+	at com.rabbitmq.client.impl.nio.SocketChannelFrameHandler.close(SocketChannelFrameHandler.java:99)
+	at com.rabbitmq.client.impl.AMQConnection.doFinalShutdown(AMQConnection.java:719)
+	at com.rabbitmq.client.impl.nio.NioLoop.lambda$dispatchShutdownToConnection$2(NioLoop.java:305)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:160)
+	at java.base/sun.nio.ch.SocketChannelImpl.setOption(SocketChannelImpl.java:218)
+	at java.base/sun.nio.ch.SocketAdaptor.setIntOption(SocketAdaptor.java:280)
+	... 6 common frames omitted
+2022-04-30 18:27:15.134 [DefaultDispatcher-worker-3 @request#9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2022-04-30 18:27:15.147 [DefaultDispatcher-worker-3 @request#9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

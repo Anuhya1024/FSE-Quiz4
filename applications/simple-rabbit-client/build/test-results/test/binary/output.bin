@@ -1,0 +1,13 @@
+’2022-04-30 18:25:31.590 [Test worker] INFO  ktor.test - No ktor.deployment.watch patterns match classpath entries, automatic reload is not active
+l2022-04-30 18:25:31.751 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker event-worker
+l2022-04-30 18:25:31.755 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker event-worker
+l2022-04-30 18:25:31.757 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker event-worker
+l2022-04-30 18:25:31.760 [Test worker] INFO  io.milk.workflow.WorkScheduler - scheduling worker event-worker
+r2022-04-30 18:25:31.767 [pool-5-thread-4] INFO  i.m.rabbitclient.PurchaseGenerator - someone purchased some milk!
+r2022-04-30 18:25:31.767 [pool-5-thread-2] INFO  i.m.rabbitclient.PurchaseGenerator - someone purchased some milk!
+r2022-04-30 18:25:31.767 [pool-5-thread-3] INFO  i.m.rabbitclient.PurchaseGenerator - someone purchased some milk!
+r2022-04-30 18:25:31.767 [pool-5-thread-1] INFO  i.m.rabbitclient.PurchaseGenerator - someone purchased some milk!
+ 2022-04-30 18:25:31.772 [pool-6-thread-1] INFO  i.milk.rabbitclient.PurchaseRecorder - sending event. decrementing the milk quantity by 2 for product_id=105442
+ 2022-04-30 18:25:31.772 [pool-6-thread-2] INFO  i.milk.rabbitclient.PurchaseRecorder - sending event. decrementing the milk quantity by 4 for product_id=105442
+ 2022-04-30 18:25:31.772 [pool-6-thread-3] INFO  i.milk.rabbitclient.PurchaseRecorder - sending event. decrementing the milk quantity by 1 for product_id=105442
+ 2022-04-30 18:25:31.772 [pool-6-thread-4] INFO  i.milk.rabbitclient.PurchaseRecorder - sending event. decrementing the milk quantity by 3 for product_id=105442
