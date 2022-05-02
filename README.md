@@ -4,7 +4,7 @@ An example architecture used for managing product inventory which
 highlights the use of event collaboration with [RabbitMQ](https://www.rabbitmq.com/).
 
 ## People Involved in the Assignment
-### Jigisha Patil
+Anuhya Mandalapu
 
 Code compiles and Java Test pass
 
