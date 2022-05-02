@@ -6,9 +6,6 @@ highlights the use of event collaboration with [RabbitMQ](https://www.rabbitmq.c
 ## People Involved in the Assignment
 Anuhya Mandalapu
 
-Code compiles and Java Test pass
-
-![gradle-build](https://github.com/jigisha620/FSE-RabbitMQ/actions/workflows/build.yml/badge.svg?event=push)
 
 ## History
 
